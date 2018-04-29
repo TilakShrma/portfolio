@@ -8,6 +8,7 @@ import Projects from './Projects';
 const Main = () => (
 	<Switch>
 		<Route exact path="/" component={LandingPage} />
+		<Route path="/portfolio" component{LandingPage}>
 		<Route path="/aboutme" component={Aboutme} />
 		<Route path="/projects" component={Projects} />
 		<Route path="/contact" component={Contact} />
