@@ -2,7 +2,7 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import LandingPage from './Landing';
 import Aboutme from './AboutMe';
-import Contact from './Contact';
+import Resume from './Resume';
 import Projects from './Projects';
 
 const Main = () => (
@@ -10,8 +10,8 @@ const Main = () => (
 		 {/*<Route exact path="/" component={LandingPage} />*/}
 		<Route exact path="/portfolio" component={LandingPage}/>
 		<Route path="/aboutme" component={Aboutme} />
+		<Route path ="/resume" component={Resume} />
 		<Route path="/projects" component={Projects} />
-		<Route path="/contact" component={Contact} />
 	</Switch>
 )
 

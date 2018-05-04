@@ -16,18 +16,18 @@ const Landing = ()  => {
 							</p>
 							<div className="social-links">
 
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://www.linkedin.com/in/tilak-sharma-085805129/" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-linkedin-square" area-hidden="true" />
 								</a>
 
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://github.com/TilakShrma" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-github-square" area-hidden="true" />
 								</a>
 
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://twitter.com/sharmaTilak97" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-twitter-square" area-hidden="true" />
 								</a>
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://www.instagram.com/tilaksharma97/" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-instagram" area-hidden="true" />
 								</a>
 							</div>

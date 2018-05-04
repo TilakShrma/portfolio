@@ -11,7 +11,7 @@ class App extends Component {
       <Navbar className="navbar">
         <Navbar.Header>
           <Navbar.Brand >
-            <Link to="/" className="brandname" style={{color : 'white'}}> Tilak Sharma</Link>
+            <Link to="/portfolio" className="brandname" style={{color : 'white'}}> Tilak Sharma</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -21,10 +21,10 @@ class App extends Component {
               <Link to="/aboutme" className="nav-link">About Me</Link>
             </NavItem>
             <NavItem>
-              <Link to="/projects" className="nav-link">Projects</Link>
+              <Link to="/resume" className="nav-link">Resume</Link>
             </NavItem>
             <NavItem>
-              <Link to="/contact" className="nav-link">Contact</Link>
+              <Link to="/projects" className="nav-link">Projects</Link>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
