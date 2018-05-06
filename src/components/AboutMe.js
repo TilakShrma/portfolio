@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid,Row,Col} from 'react-bootstrap';
-import Particles from 'react-particles-js';
+
 
 const Aboutme = ()  => {
 	return(

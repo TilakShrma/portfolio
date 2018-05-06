@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid,Row,Col,Table} from 'react-bootstrap';
+import {Grid,Row,Col,Table,Button} from 'react-bootstrap';
 
 const Resume = () => {
 	return(
@@ -17,6 +17,8 @@ const Resume = () => {
 						<i className="fa fa-envelope fa-2x" area-hidden="true"/>
 						<br/>
 						<p className="social">tilak.sharma.mail@gmail.com</p>
+						<br />
+						<Button href="/Tilak_Resume.pdf" bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '60%'}}>Save as Pdf</Button>
 					</div>
 				</Col>
 				<Col md={9}>
@@ -87,7 +89,7 @@ const Resume = () => {
 						<hr style={{borderBottom : '1px solid red'}}/>
 						<h1 className="resume-heading">Courses and Certifications</h1>
 						<ul className="skills-link">
-							<li><a href="https://www.coursera.org/account/accomplishments/certificate/KGFG3L5MEHQ8">
+							<li><a href="https://www.coursera.org/account/accomplishments/certificate/KGFG3L5MEHQ8" rel="noopener noreferrer" target="_blank">
 							Programming Foundations with JavaScript, HTML and CSS by Duke University on Coursera.</a></li>
 							<li>The Complete Web Developer in 2018: Zero to Mastery</li>
 						</ul>

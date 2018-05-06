@@ -118,6 +118,7 @@
 
 /*About Me*/
 
+
 .about-grid{
 	margin: auto;
 	margin-top: 10%;
@@ -193,6 +194,18 @@
 	font-weight: 600;
 	font-size: 1.3em;
 }
+
+.download-btn{
+	border-radius : 50px; 
+	width: 60%;
+	text-decoration: none;
+	
+}
+
+
+
+
+
 
 
 /*Contact*/
