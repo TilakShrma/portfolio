@@ -18,7 +18,7 @@ const Resume = () => {
 						<br/>
 						<p className="social">tilak.sharma.mail@gmail.com</p>
 						<br />
-						<Button href="/Tilak_Resume.pdf" download bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '60%'}}>Download Resume</Button>
+						<Button href="/Tilak_Resume.pdf" download bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '75%'}}>Download Resume</Button>
 					</div>
 				</Col>
 				<Col md={9}>
