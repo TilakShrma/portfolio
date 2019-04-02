@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid,Row,Col} from 'react-bootstrap';
-import {ProfilePicture} from './profile_pic.jpeg';
+import ProfilePicture from './profile_pic.jpeg';
 
 const Landing = ()  => {
 	return(

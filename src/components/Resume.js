@@ -1,7 +1,7 @@
 import React from 'react';
 import {Grid,Row,Col,Table,Button} from 'react-bootstrap';
-import {ProfilePicture} from './profile_pic.jpeg';
-import {ResumeFile} from './resume-tilaksharma.docx';
+import ProfilePicture from './profile_pic.jpeg';
+import ResumeFile from './resume-tilaksharma.docx';
 
 const Resume = () => {
 	return(
