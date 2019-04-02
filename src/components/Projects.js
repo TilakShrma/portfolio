@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid,Row,Col,Button} from 'react-bootstrap';
-import Brain from './brain.png'
+import Brain from './brain.png';
 
 const Projects = ()  => {
 	return(

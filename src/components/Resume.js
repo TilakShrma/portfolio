@@ -1,5 +1,7 @@
 import React from 'react';
 import {Grid,Row,Col,Table,Button} from 'react-bootstrap';
+import {ProfilePicture} from './profile_pic.jpeg';
+import {ResumeFile} from './resume-tilaksharma.docx';
 
 const Resume = () => {
 	return(
@@ -7,7 +9,7 @@ const Resume = () => {
 			<Row className="resume-row">
 				<Col md={3}>	
 					<div className="resume-sidebar">
-						<img src="/profile_pic.jpeg" style={{width:'190px'}} />
+						<img src={ProfilePicture} style={{width:'190px'}} alt="profile"/>
 						<h1>Tilak sharma</h1>
 						<h3>Software Engineer</h3>
 						<i className="fa fa-phone-square fa-2x" area-hidden="true"/>
@@ -18,7 +20,7 @@ const Resume = () => {
 						<br/>
 						<p className="social">tilak.sharma.mail@gmail.com</p>
 						<br />
-						<Button href="/resume-tilaksharma.docx" download bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '75%'}}>Download Resume</Button>
+						<Button href={ResumeFile} download bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '75%'}}>Download Resume</Button>
 					</div>
 				</Col>
 				<Col md={9}>

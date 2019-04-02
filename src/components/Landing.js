@@ -1,12 +1,14 @@
 import React from 'react';
 import {Grid,Row,Col} from 'react-bootstrap';
+import {ProfilePicture} from './profile_pic.jpeg';
+
 const Landing = ()  => {
 	return(
 		<div>
 			<Grid className="landing-grid">
 				<Row>
 					<Col md={12} lg={12}>
-						<img src="/profile_pic.jpeg"
+						<img src={ProfilePicture}
 						alt="avatar"
 						className="avatar-img" />
 						<div className="banner">
