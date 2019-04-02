@@ -43,6 +43,7 @@
 	text-align: center;
 	padding: 0px;
 	width: 100vw;
+    height: 92.5vh;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background: #000000;  /* fallback for old browsers */
@@ -55,7 +56,7 @@
 .avatar-img{
 	width: 200px;
     height : 320px;
-	padding-top: 5.3em;
+	padding-top: 5.5em;
 	padding-bottom: 3em;
 
     border-bottom-left-radius: 50%;
