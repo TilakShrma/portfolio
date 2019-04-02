@@ -7,9 +7,9 @@ const Resume = () => {
 			<Row className="resume-row">
 				<Col md={3}>	
 					<div className="resume-sidebar">
-						<img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" style={{width:'190px'}} />
+						<img src="/profile_pic.jpeg" style={{width:'190px'}} />
 						<h1>Tilak sharma</h1>
-						<h3>Computer Science Undergraduate</h3>
+						<h3>Software Engineer</h3>
 						<i className="fa fa-phone-square fa-2x" area-hidden="true"/>
 						<br/>
 						<p className="social">+91-9560729936</p>
@@ -18,7 +18,7 @@ const Resume = () => {
 						<br/>
 						<p className="social">tilak.sharma.mail@gmail.com</p>
 						<br />
-						<Button href="/Tilak_Resume.pdf" download bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '75%'}}>Download Resume</Button>
+						<Button href="/resume-tilaksharma.docx" download bsStyle="danger" style={{color : 'white', borderRadius : '50px', width : '75%'}}>Download Resume</Button>
 					</div>
 				</Col>
 				<Col md={9}>

@@ -53,9 +53,17 @@
 }
 
 .avatar-img{
-	width: 230px;
+	width: 200px;
+    height : 320px;
 	padding-top: 5.3em;
 	padding-bottom: 3em;
+
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 60%;
+    border-top-right-radius :60%;
+    
+    
 }
 
 .banner h1{
